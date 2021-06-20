@@ -1,0 +1,53 @@
+footer{
+    background-color: rgb(70,70,70);
+    #conteneurBis{
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        div{
+            width: 30%;
+        }
+        #firstDiv{
+            color: grey;
+            h4{
+                color:white;
+            }
+        }
+        #deuxDiv{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                color: white;
+                margin: 7px;
+            }
+        }
+        #troisDiv{
+            button{
+                background-color: rgb(70,70,70);
+                border: 1px solid grey;
+                color: grey;
+                padding: 4px;
+                margin: 2px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+    #lastDiv{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: center;
+            color:rgb(70,70,70);
+        }
+    }
+}

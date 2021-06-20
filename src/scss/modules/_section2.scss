@@ -1,0 +1,91 @@
+#sec2{
+    #miniMenu{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            width: 30%;
+            height: 130px;
+            color: white;
+            span{
+                border-bottom: solid 1px white;
+            }
+        }
+        #mini1{
+            background-image: url("../img/services/service-1.jpg");
+        }
+        #mini2{
+            background-image: url("../img/services/service-2.jpg");
+        }
+        #mini3{
+            background-image: url("../img/services/slider-3.jpg");
+
+        }
+    }
+    h3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #recents{
+        .divLigne{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .imgHover{
+                width: 25%;
+                margin: 10px;
+                text-align: center;
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .conteneur{
+                    position: absolute;
+                    top: 65%;
+                    left:20%;
+                    z-index: 1;
+                    opacity: 0;
+                    
+                    .laFlexance{
+                        display: flex;
+                        justify-content: center;
+                        .panier{
+                            background-color: red;
+                            color:white;
+                            padding:20px;
+                            border:none;
+                            cursor: pointer;
+                        }
+                        .details{
+                            background-color: black;
+                            color: white;
+                            padding:20px;
+                            border:none;
+                            cursor: pointer;
+                        }
+
+                    }
+                }
+                p{
+                    color: red;
+                }
+            }
+            .imgHover:hover{
+                width:30%;
+                img{
+                    box-shadow: 2px 2px 4px 5px grey;
+                }
+                .conteneur{
+                    opacity: 100%;
+                    z-index:1;
+                }
+            }
+            
+        }
+    }
+}
